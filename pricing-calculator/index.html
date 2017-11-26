@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pricing Calculator</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="jumbotron text-center">
+        <h2>How much pies cost?</h2>
+
+        <form action="">
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="text" class="form-control" name="price" value="20">
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">
+                    Quantity
+                    <span class="label label-default quantity-label">1</span>
+                </label>
+                <input type="range" class="form-control" name="quantity" value="1" min="1" max="10" step="1">
+            </div>
+
+            <div class="text-right text-giant total"></div>     
+        </form>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
