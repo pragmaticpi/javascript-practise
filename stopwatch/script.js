@@ -37,7 +37,7 @@ function calculateTime(){
 
     const numOfMinutes = Math.floor(timeTimer / 60);
     const numOfSeconds = timeTimer % 60;
-    const numOfHours = numOfMinutes % 60;
+    const numOfHours = Math.floor(numOfMinutes / 60);
 
     minutes.innerText = addZero(numOfMinutes);
     seconds.innerText = addZero(numOfSeconds);
