@@ -1,0 +1,10 @@
+body {
+    padding: 30px;
+}
+
+.btn-crazy {
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    transition: 1s ease all;
+}
